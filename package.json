@@ -1,0 +1,27 @@
+{
+  "name": "otp-helper",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "gh-pages": "^2.2.0",
+    "react-scripts": "0.9.5"
+  },
+  "dependencies": {
+    "@otplib/preset-browser": "^12.0.1",
+    "bootstrap": "^4.0.0-alpha.6",
+    "jssha": "^2.3.0",
+    "otpauth": "^5.0.8",
+    "otplib": "^11.0.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "homepage": "https://na1s.github.io/otp/",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
+}
